@@ -4687,3 +4687,34 @@ input, select, textarea {
 		}
 
 	}
+
+/* ================= Clean Timeline ================= */
+
+.timeline {
+	position: relative;
+	padding-left: 50px;
+}
+
+.timeline::before {
+	content: '';
+	position: absolute;
+	left: 20px;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+	background: #e6e6e6;
+}
+
+.timeline-item {
+	position: relative;
+	padding-bottom: 3rem;
+}
+
+/* ================= Universal Skill Tag ================= */
+
+.skill-tag {
+	font-weight: 600;
+	color: #212931;
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 2px;
+}
